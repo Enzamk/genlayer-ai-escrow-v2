@@ -1,29 +1,55 @@
 # 🚀 GenLayer AI Escrow V2
 
 ## 🧠 Overview
-AI-powered non-deterministic escrow system with validator consensus inspired by GenLayer architecture.
 
-This project simulates how intelligent contracts can go beyond deterministic logic using AI reasoning and consensus-based decision making.
+This project demonstrates a **GenLayer-native intelligent escrow system** that combines:
+
+- 🤖 AI-based non-deterministic reasoning  
+- 🗳️ Validator consensus mechanism  
+- 🌍 Real-world uncertainty simulation  
+
+It showcases how smart contracts can evolve beyond deterministic logic to handle subjective, real-world disputes.
 
 ---
 
-## ⚙️ Features
+## ❌ Problem with Traditional Smart Contracts
 
-- 🤖 AI-based dispute resolution (non-deterministic)
-- 🌦️ Weather-based real-world context simulation
-- 🗳️ Validator consensus system (3 validators)
-- 💰 Full escrow lifecycle (deposit → dispute → resolution)
+Traditional blockchain contracts are:
+
+- Fully deterministic  
+- Unable to handle subjective disputes  
+- Limited in real-world ambiguity (quality, delays, external factors)
+
+---
+
+## ✅ GenLayer Approach (This Project)
+
+This system introduces:
+
+### 🤖 AI Decision Layer
+AI evaluates disputes using:
+- Work quality
+- Delivery status
+- Randomized contextual reasoning
+
+### 🗳️ Validator Consensus Layer
+- 3 independent validators vote
+- Final decision based on majority
+
+### 🌍 Real-World Simulation
+- Weather + randomness affects outcomes
+- Mimics real-world uncertainty
 
 ---
 
 ## 🔄 Flow
 
-1. Buyer deposits funds
-2. Seller submits work
-3. Dispute is raised
-4. AI evaluates case using randomness + context
-5. Validators vote independently
-6. Majority decision is executed
+1. Buyer deposits funds  
+2. Seller submits work  
+3. Dispute is raised  
+4. AI evaluates the case (non-deterministic)  
+5. Validators vote independently  
+6. Consensus decides final payout  
 
 ---
 
