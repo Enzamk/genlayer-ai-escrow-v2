@@ -1,12 +1,9 @@
 {
   "name": "genlayer-ai-escrow-v2",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "GenLayer AI Escrow with non-deterministic consensus",
+  "main": "scripts/demo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "start": "node scripts/demo.js"
+  }
 }
