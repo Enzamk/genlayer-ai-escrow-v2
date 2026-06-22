@@ -1,60 +1,59 @@
-# 🚀 GenLayer AI Escrow V2
+# 🔥 GenLayer AI Arbitration Engine
 
 ## 🧠 Overview
 
-This project demonstrates a **GenLayer-native intelligent escrow system** that combines:
+This project demonstrates a **next-generation intelligent escrow system** built for GenLayer, where traditional deterministic smart contracts are replaced with:
 
-- 🤖 AI-based non-deterministic reasoning  
-- 🗳️ Validator consensus mechanism  
-- 🌍 Real-world uncertainty simulation  
-
-It showcases how smart contracts can evolve beyond deterministic logic to handle subjective, real-world disputes.
+- 🤖 AI arbitration logic  
+- 🌍 Real-world condition awareness (weather)  
+- 🗳️ Decentralized validator consensus  
 
 ---
 
-## ❌ Problem with Traditional Smart Contracts
+## 💡 Problem
 
-Traditional blockchain contracts are:
+Traditional smart contracts fail in:
 
-- Fully deterministic  
-- Unable to handle subjective disputes  
-- Limited in real-world ambiguity (quality, delays, external factors)
-
----
-
-## ✅ GenLayer Approach (This Project)
-
-This system introduces:
-
-### 🤖 AI Decision Layer
-AI evaluates disputes using:
-- Work quality
-- Delivery status
-- Randomized contextual reasoning
-
-### 🗳️ Validator Consensus Layer
-- 3 independent validators vote
-- Final decision based on majority
-
-### 🌍 Real-World Simulation
-- Weather + randomness affects outcomes
-- Mimics real-world uncertainty
+- Subjective disputes (freelance work, delivery quality)
+- External real-world conditions
+- Human-like judgment decisions
 
 ---
 
-## 🔄 Flow
+## 🚀 Solution
 
-1. Buyer deposits funds  
-2. Seller submits work  
-3. Dispute is raised  
-4. AI evaluates the case (non-deterministic)  
+This system introduces an **AI Arbitration Layer** that:
+
+### 🤖 AI Evaluation
+- Scores work quality dynamically
+- Uses probabilistic reasoning
+- Incorporates external conditions (weather)
+
+### 🌦️ Real-World Context
+- Weather affects decision outcomes
+- Simulates real-world delay justification
+
+### 🗳️ Validator Consensus
+- 3 independent validators
+- Majority-based final decision
+- Non-deterministic voting behavior
+
+---
+
+## 🔄 System Flow
+
+1. Escrow funded  
+2. Work submitted  
+3. Dispute raised  
+4. AI evaluates case + weather context  
 5. Validators vote independently  
-6. Consensus decides final payout  
+6. Consensus resolves payout  
 
 ---
 
-## 🧪 Run Project
+## ⚙️ Run Project
 
 ```bash
 npm install
 npm start
+```

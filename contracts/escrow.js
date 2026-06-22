@@ -27,10 +27,10 @@ class Escrow {
         console.log("Dispute raised!");
     }
 
-    resolveDispute() {
+    async resolveDispute() {
         console.log("\n--- AI Evaluating Dispute ---");
 
-        const aiResult = aiEvaluateDispute();
+        const aiResult = await aiEvaluateDispute();
 
         console.log(aiResult.reasoning);
 
@@ -39,9 +39,15 @@ class Escrow {
         const votes = [];
 
         for (let i = 1; i <= 3; i++) {
-            const vote = Math.random() > 0.5 ? aiResult.decision : "flip";
+            const vote =
+                Math.random() > 0.6
+                    ? aiResult.decision
+                    : (aiResult.decision === "buyer_refund"
+                        ? "seller_paid"
+                        : "buyer_refund");
+
             votes.push(vote);
-            console.log(`Validator ${i}: ${vote}`);
+            console.log(`Validator ${i} voted: ${vote}`);
         }
 
         const buyerVotes = votes.filter(v => v === "buyer_refund").length;
